@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "banner_generals",
+  "info": {
+    "singularName": "banner-general",
+    "pluralName": "banner-generals",
+    "displayName": "bannerGeneral"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
